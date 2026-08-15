@@ -26,24 +26,6 @@ The notebooks are intended to be run in a Python/Jupyter environment. Required p
 
 The workbook illustrates the expected sociodemographic input structure. It does not contain measured metabolomic data and therefore cannot reproduce the numerical results reported in the article.
 
-### Variables and coding
-
-| Variable | Format or coding |
-| --- | --- |
-| `Age` | Numeric, years |
-| `BMI` | Numeric, kg/m2 |
-| `Education` | Elementary, Secondary, or Tertiary |
-| `Marriage` | Single, Married, or Divorced |
-| `Pre.Residence` | Rural or Urban |
-| `Pre.Work` | Full-time, Part-time, or Unemployed |
-| `Economic.conditions` | 1 = Bad; 2 = Normal; 3 = Good |
-| `Pre.Income` | 1 = Level1; 2 = Level2; 3 = Level3; 4 = Level4; 5 = Level5 |
-| `Smoke` | current, former, or never |
-| `Pre.Drink` | 1 = Everyday; 2 = 3-5 times a week; 3 = 1-2 times a week; 4 = 1-2 times a month; 5 = Sometime a year; 6 = Rarely; 7 = Never |
-| `Group` | 0 = non_vio; 1 = vio |
-
-The remaining categorical variables retain their category labels and can be encoded by the analysis pipeline.
-
 ## Data availability
 
 The preprocessed feature-level metabolomic data are available in the Supplementary File (`Supplemental_Metabolomic_Data.xlsx`) accompanying the associated article. These data are not raw LC-MS/MS instrument output and do not permit reproduction of the upstream metabolomic processing procedures.
