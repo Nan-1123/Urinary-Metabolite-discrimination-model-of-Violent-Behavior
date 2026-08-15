@@ -24,7 +24,7 @@ The notebooks are intended to be run in a Python/Jupyter environment. Required p
 
 `Synthetic_Violence_Input_Dataset.xlsx` contains 246 entirely synthetic records: 115 records coded as non-violent and 131 records coded as violent behavior. The dataset was generated from the aggregate distributions reported in Table 1 of the associated study. It does not contain information from, represent, or permit reconstruction of any participant.
 
-The workbook illustrates the expected sociodemographic input structure. It does not contain measured metabolomic data and therefore cannot reproduce the numerical results reported in the article.
+In the reported analysis, participant-matched sociodemographic variables and the metabolomic features provided in Supplemental_Metabolomic_Data.xlsx were jointly used as model inputs; the synthetic sociodemographic dataset provided here is intended only to illustrate the input structure and should not be combined row-wise with the real metabolomic data. The workbook illustrates the expected sociodemographic input structure. It therefore cannot reproduce the numerical results reported in the article.
 
 ## Data availability
 
